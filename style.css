@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f,#072ac5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background: #f2f5f3;
+  padding: 30px;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  color: #050505;
+}
+
+/* Question */
+#question-text {
+  margin-bottom: 20px;
+  color: #050505;
+}
+
+/* Choices */
+#choices-list {
+  list-style: none;
+}
+
+#choices-list li {
+  background: #f1f1f1;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#choices-list li:hover {
+  background: #667eea;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #072ac5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #667eea;
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+/* Result section */
+#result-container h2 {
+  margin-bottom: 10px;
+}
+
+#score {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+.hidden{
+  display: none;
+}
+#choices-list li.selected{
+  background-color: #4866eb;
+}
